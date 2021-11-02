@@ -1,0 +1,102 @@
+body {
+  background-color: rgb(21, 21, 32);
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 1.2rem;
+}
+
+form {
+  text-align: left;
+  color: white;
+}
+.structure {
+  background-color: rgb(30, 30, 44);
+  display: inline-block;
+  margin-top: 3%;
+  border-radius: 15px;
+}
+
+.title {
+  margin-bottom: 0px;
+  color: white;
+  margin-top: 50px;
+}
+
+.subtitle {
+  margin-top: 5px;
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+.create {
+  color: rgb(81, 153, 247);
+}
+
+.sign-in {
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.email-label {
+  font-size: 1rem;
+}
+
+.password-label {
+  font-size: 1rem;
+}
+
+.email {
+  color: hsla(0, 0%, 100%, 0.6);
+  background-color: rgb(27, 27, 40);
+  height: 45px;
+  width: 400px;
+  margin-bottom: 55px;
+  border: none;
+  border-radius: 10px;
+
+  font-size: 0.8rem;
+}
+
+.password {
+  color: hsla(0, 0%, 100%, 0.6);
+  background-color: rgb(27, 27, 40);
+  height: 45px;
+  width: 400px;
+  margin-bottom: 55px;
+  border: none;
+  border-radius: 10px;
+
+  font-size: 0.8rem;
+}
+
+.btn {
+  font-size: 1.2rem;
+  width: 80%;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  
+  color: white;
+  background-color: rgb(81, 153, 247);
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: rgb(64, 135, 228);
+}
+
+.email:focus {
+  outline: none;
+  background-color: black;
+}
+
+.password:focus {
+  outline: none;
+  background-color: black;
+}
+
+.create:hover {
+  color: rgb(89, 155, 240);
+  cursor: pointer;
+}
